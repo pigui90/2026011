@@ -1,0 +1,88 @@
+Ejercicio 1
+
+variables 
+
+int edad
+String fechaNacimiento  "14/08/2001" "14 de Agosto de 2001"
+String diaIngreso
+double notaIngreso
+boolean viveCerca
+String nombre
+String carrera
+
+
+constantes
+
+boolean estudianteNuevo
+float cobroCredito
+String fechaInicio
+String fechaFin
+
+Ejercicio 2
+
+variables
+
+double salarioBase
+double anualidad
+double dedicacionExclusiva
+double salarioTotal
+double montoRenta
+double montoCCSS
+double salarioNeto
+
+constante
+
+double renta = 0.05
+double ccss = 0.03
+
+
+expresiones
+
+salarioTotal = salarioBase + anualidad + dedicacionExclusiva
+montoRenta = salarioTotal * renta
+montoCCSS = salarioTotal * ccss
+salarioNeto = salarioTotal - montoRenta - montoCCSS
+
+Ejercicio 3
+
+variables
+int edad
+int tarifaCobrar
+
+constantes
+int rebajo = 900
+int tarifaGratis = 0
+int tarifaRegular = 1000
+int menorEdad = 5
+int mayorEdad = 63
+
+Expresiones
+
+edad > mayorEdad
+tarifaCobrar = tarifaRegular - rebajo
+edad < menorEdad
+tarifaCobrar = tarifaGratis
+edad > menorEdad y  edad < mayorEdad
+tarifaCobrar = tarifaRegular
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
