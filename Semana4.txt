@@ -1,0 +1,155 @@
+Ejercicio 1
+
+INICIO
+
+int valorA
+int valorB
+int aux
+Escribir "Ingrese el valor de A"
+Leer valorA
+
+Escribir "Ingrese el valor de B"
+Leer valorB
+aux = valorA
+valorA = valorB
+valorB = aux
+
+Escribir "El valor de A es " + valorA
+Escribir "El valor de B es " + valorB
+
+FIN
+
+Ejercicio 2
+
+INICIO
+
+int numero1
+int numero2
+int numero3
+
+Escribir "Ingrese el primer valor"
+Leer numero1
+Escribir "Ingrese el segundo valor"
+Leer numero2
+Escribir "Ingrese el tercer valor"
+Leer numero3
+
+Si (numero1 < 0) entonces
+	Escribir "El producto es " + (numero1 * numero2 * numero3)
+sino
+	Escribir "La suma es " + (numero1 + numero2 + numero3)
+
+Fin-Si
+
+FIN
+
+
+Ejercicio 3
+
+INICIO
+
+int numero  = 1
+int cuadrado
+
+para (numero hasta 9 aumente 1)
+
+	cuadrado = numero * numero
+	Escribir "El cuadrado del numero es: " + cuadrado
+
+fin-para
+
+FIN
+
+Ejercicio 4
+
+
+INICIO 
+
+String palabra
+
+haga
+	Escribir "Ingrese una palabra"
+	Leer palabra
+Mientras (palabra != "SALIR")
+
+FIN
+
+
+
+Ejercicio 4.1
+
+
+INICIO 
+
+String palabra = "werwer"
+String fin = "SALIR"
+ 	
+Mientras (palabra != fin)
+	Escribir "Ingrese una palabra"
+	Leer palabra
+Fin-Mientras
+
+
+
+FIN
+
+Ejercicio 5
+
+INICIO
+String clave 
+String password = "eureka"
+int intentos = 0
+
+haga
+	Escribir "Digite la contraseña"
+	Leer clave
+	Si (clave == password) entonces
+		Escribir "Adivino la contraseña"
+	sino
+		Escribir "No adivino la contraseña"
+		intentos = intentos + 1
+	Fin-Si
+Mientras(clave != password && intentos < 3)
+
+Si (intentos == 3)
+		Escribir "Agoto los intentos"
+Fin-Si
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
