@@ -1,0 +1,87 @@
+Ejercicio 1
+
+INICIO
+
+double celsius
+double faren
+
+Escribir "Ingrese los grados Celsius a convertir"
+Leer celsius
+
+faren = (celsius * 9 / 5) + 32
+
+Escribir "El resultado de la conversión es " + faren
+
+FIN
+Ejercicio 2
+
+INICIO
+
+double num1
+double num2
+double resultado
+char operacion
+
+Escribir "Ingrese un numero"
+Leer num1
+Escribir "Ingrese otro numero"
+Leer num2
+Escribir "Digite + para sumar, - para restar, * para multiplicar, / para dividir"
+Leer operacion
+
+Segun operacion
+
+caso '+':
+	resultado = num1 + num2
+caso '-'
+	resultado = num1 - num2
+caso '/'
+	resultado = num1 / num2
+caso '*'
+	resultado = num1 * num2
+Fin-Segun
+Escribir "El resultado es " + resultado
+
+FIN
+
+Ejercicio 3
+
+INICIO
+
+int factorial = 1
+int numero
+int aux = 1
+
+Escribir "Ingrese un numero para saber su factorial"
+Leer numero
+
+para (aux hasta numero aumente 1)
+	factorial = factorial * aux
+fin-para
+
+Escribir "El factorial de " + numero + " es: " + factorial
+
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
